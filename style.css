@@ -21,11 +21,35 @@ header h1 {
 }
 
 nav {
+	clear: both;
 	width: 100%;
 	margin: 0 auto;
+	padding: 5px 0;
 	text-align: center;
 }	
 
 nav li {
 	list-style: none;
+}
+
+/* ABOUT PAGE --- How Does GB Affect You*/
+
+#you {
+	margin: 0;
+	padding: 10px;
+}
+
+#you img {
+	float: left;
+	margin: 0 10px;
+	padding: 5px;
+}
+
+#you h2 {
+	font-size: 25px;
+	text-align: justify;
+}
+
+#you p {
+	text-align: justify;
 }
