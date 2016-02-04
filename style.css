@@ -23,6 +23,7 @@ p {
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-left: 20px;
+  float: right;
 }
 
 #main img {
