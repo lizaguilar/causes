@@ -7,10 +7,6 @@ html {
     line-height: 1.2;
 }
 
-a {
-	text-decoration: none;
-}
-
 header {
 	min-height: 70px;
 	padding: 5px 10px;
@@ -45,13 +41,25 @@ p {
 nav {
 	clear: both;
 	width: 100%;
-	margin: 0 auto;
-	padding: 5px 0;
+	margin-bottom: 20px;
+	padding: 10px;
 	text-align: center;
 }	
 
 nav li {
 	list-style: none;
+}
+
+nav li a {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #44aa61;
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+
+nav li a:hover {
+	color: #000;
 }
 
 /* ABOUT PAGE --- How Does GB Affect You*/
