@@ -14,6 +14,16 @@ header h1 {
 	width: 100%;
 	margin: 0 auto;
 }
+img {
+  float: right;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+p {
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 20px;
+}
 
 #main img {
 	margin: 0 auto;
@@ -53,3 +63,5 @@ nav li {
 #you p {
 	text-align: justify;
 }
+
+
