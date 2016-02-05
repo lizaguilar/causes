@@ -23,15 +23,21 @@ header h1 {
 	margin: 0 auto;
 }
 #pic {
-  float: right;
+  float: left;
   margin-right: 50px;
   margin-left: 20px;
+  display: inline;
 }
 p {
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-left: 20px;
   float: right;
+}
+.par {
+  float: right;
+  width: 450px;
+  margin-right: 200px;
 }
 
 #main img {
